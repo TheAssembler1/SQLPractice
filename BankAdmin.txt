@@ -1,3 +1,5 @@
 This user has been granted access to the bank database.
 
 CREATE USER 'TheAssembler1'@'localhost' IDENTIFIED BY 'N2llewis';
+
+mysql -u TheAssembler1 -p bank
